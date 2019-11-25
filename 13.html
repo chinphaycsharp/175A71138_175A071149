@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+			function dangky()
+			{
+				alert("Đăng ký thành công !");
+			}
+	</script>
+	<style type="text/css">
+		#dv{background:#99FFCC;width: 60%;margin: auto;height:400px}
+		#f{text-align: center;font-size: 25px;color: red}
+		table{margin: auto; background: white}
+		form{margin-top:30px}
+	</style>
+</head>
+<body>
+	<div id="dv">
+	<form >
+		<p id="f">Phiếu đăng ký tham chương trình khuyến mại</p>
+		<table id="tb" border="1">
+			<tr>
+				<td>Họ và tên</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Điện thoại</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Khách Việt Nam</td>
+				<td><input type="radio" name="rdbGt" />Nam
+			</tr>
+			<tr>
+				<td>Chon tour</td>
+				<td>
+					<select name="Nghề nghiệp">
+						<option>Buôn Mê Thuột - Gia Lai - Kontum</option>
+						<option>Thái Binh -Đà Nẵng - Nha Trang</option>
+						<option>Việt Nam - Lào</option>
+						<option>Đà Nẵng - Lào Cai</option>
+						<option>Vũng Tàu - Nha Trang - Đà Nẵng</option>
+						<option>Việt Nam - Nhật</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Số lượng hành khách</td>
+				<td>
+					<table>
+						<tr>
+							<td>
+								Người lớn<input type="text">
+							</td>
+							<td>
+								Trẻ em<input type="text">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>Phương tiện</td>
+				<td><input type="radio" name="rdbGt" />Máy bay<input type="radio" name="rdbGt" />Xe ô tô<br/></td>
+			</tr>
+			<tr>
+				<td>Ghi chú thêm</td>
+				<td>
+					<textarea ></textarea>
+				</td>
+			<tr>
+				<th colspan="2"><input type="button" value="Đăng ký" onclick="dangky()"></th>
+			</tr>
+		</table>
+	</form>
+	</div>
+</body>
+</html>
